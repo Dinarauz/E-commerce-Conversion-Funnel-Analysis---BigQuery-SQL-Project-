@@ -85,7 +85,7 @@ The raw data was super nested - one session could have 100+ hits (pageviews, cli
 2. Find the dataset:
    • It's in: bigquery-public-data.google_analytics_sample
    • Tables are named like ga_sessions_20160801
-3. Create flattened tables first (the data is super nested)
+3. Create flattened tables first (the data is super nested) (I have attached all of my queries as well as clean csv files)
 4. Run the analysis queries in order
 5. Export to Power BI for visualizations
 
