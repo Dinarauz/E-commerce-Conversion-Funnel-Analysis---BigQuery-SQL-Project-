@@ -82,7 +82,7 @@ The raw data was super nested - one session could have 100+ hits (pageviews, cli
 
 ## How to Run This
 1. Get access to BigQuery (Google Cloud - it's free for queries under 1TB)
-2. Find the dataset:
+2. Find the dataset or you can use my code here (https://github.com/Dinarauz/E-commerce-Conversion-Funnel-Analysis---BigQuery-SQL-Project-/blob/main/Initial%20codes.sql):
    • It's in: bigquery-public-data.google_analytics_sample
    • Tables are named like ga_sessions_20160801
 3. Create flattened tables first (the data is super nested) (I have attached all of my queries as well as clean csv files)
