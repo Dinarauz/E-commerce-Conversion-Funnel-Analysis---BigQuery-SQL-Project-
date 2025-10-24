@@ -39,16 +39,16 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 5. **Total Revenue:** $4.98 M
 
 ## Funnel Analysis Overview
-All Visitors        → 714,167 (100%)    ← Everyone who visited
+All Visitors        → 712,272 (100%)    ← Everyone who visited
 Product Views       → 233,685 (32.73%)  ← Looked at a product
-Add to Cart         → 39,882 (5.59%)    ← Added something to cart
+Add to Cart         → 39,8820 (5.59%)    ← Added something to cart
 Begin Checkout      → 16,869 (2.36%)    ← Started checkout
 Complete Purchase   → 9,988 (1.40%)     ← Actually bought
 
 ## Device Breakdown
 • **Desktop**: 1.73% conversion rate
-• **Tablet**: 1.27% conversion rate
-• **Mobile**: 0.99% conversion rate
+• **Tablet**: 0.66% conversion rate
+• **Mobile**: 0.49% conversion rate
 
 ## How I built this project
 
