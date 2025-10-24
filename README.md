@@ -63,6 +63,7 @@ Complete Purchase   → 9,988 (1.40%)     ← Actually bought
 The raw data was super nested - one session could have 100+ hits (pageviews, clicks, etc.) all stored in arrays. Had to flatten everything into separate tables first before I could analyze it properly.
 
 ## Dashboard - Built an interactive Power BI dashboard with:
+<img width="711" height="540" alt="image" src="https://github.com/user-attachments/assets/d26e6cec-ab94-4702-b413-0063b3aaca7f" />
 
 1. Funnel visualization showing where people drop off
 2. Device comparison charts (mobile vs desktop performance)
