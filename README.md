@@ -20,6 +20,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 3. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
 4. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
 5. Checkout is the killer - We lose 41% of users between cart and starting checkout
+6. Geographic Spread - Customers from 200+ countries, with US dominating
 
 ## Business Recommendations
 1. **Need to fix mobile experience immediately**
