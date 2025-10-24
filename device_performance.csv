@@ -1,0 +1,4 @@
+device_type,total_visitors,product_views,add_to_cart,purchases,conversion_rate
+desktop,522442,72694,31077,9018,1.73
+tablet,24235,3219,1089,160,0.66
+mobile,165595,23028,7534,810,0.49
