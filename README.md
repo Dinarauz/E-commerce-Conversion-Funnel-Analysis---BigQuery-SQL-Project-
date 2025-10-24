@@ -1,16 +1,18 @@
-# E-commerce Conversion Funnel Analysis - BigQuery SQL Project
+# E-commerce Conversion Funnel Analysis for Google Merchandise Store using BigQuery SQL
 <img width="1920" height="1080" alt="Google Analytics Funnel Analysis" src="https://github.com/user-attachments/assets/9a08c145-d81f-4ebc-8f58-fd9ef25f3754" />
 
-In this project I utilized BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying.
+In this project I analyzed 900K+ sessions using BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying.
 
-## What this project is about:
-I analyzed a year's worth of Google Merchandise Store data (900K+ sessions) to understand why people leave without buying or how many % of people ended buying. 
+## Business Problem:
+The Google Merchandise Store (like most e-commerce sites) was losing potential customers somewhere between landing on the site and completing a purchase. They needed to understand: 
 
 ## Questions I wanted to answer:
 1. How many visitors actually end up buying something?
-2. At what point do most people leave the site?
+2. Where exactly are we losing customers in the purchase journey?
 3. Does mobile vs desktop make a difference?
 4. How bad is the cart abondonment problem ?
+
+**What I'm solving:** Identifying the specific drop-off points in the conversion funnel and quantifying the revenue impact of fixing them.
 
 ## What I found:
 1. Only 1.4% of visitors actually end up buying something (which is kind of low!)
