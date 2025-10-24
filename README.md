@@ -18,7 +18,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 
 ## Key Insights:
 1. Massive drop-off at product view - 67% of visitors never even look at a product page
-2. Mobile is broken - Mobile converts at 0.99% vs desktop's 1.73% (43% worse)
+2. Mobile is broken - Mobile converts at 0.49% vs desktop's 1.73% (43% worse)
 3. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
 4. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
 5. Checkout is the killer - We lose 41% of users between cart and starting checkout
@@ -34,7 +34,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
    
 ## The Numbers:
 1. **Total Sessions:** 903,653
-2. **Unique Visitors:** 714,167
+2. **Unique Visitors:** 712,272
 3. **Purchases:** 9,988 people 
 5. **Total Revenue:** $4.98 M
 
