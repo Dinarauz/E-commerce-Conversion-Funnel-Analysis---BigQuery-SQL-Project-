@@ -14,16 +14,26 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 
 **What I'm solving:** Identifying the specific drop-off points in the conversion funnel and quantifying the revenue impact of fixing them.
 
-## What I found:
-1. Only 1.4% of visitors actually end up buying something (which is kind of low!)
-2. 74.84% of people who add items to cart don't complete the purchase (huge problem)
-3. Mobile users convert 43% worse than desktop users - meaning there must be something wrong with the mobile experience.
+## Key Insights:
+1. Massive drop-off at product view - 67% of visitors never even look at a product page
+2. Mobile is broken - Mobile converts at 0.99% vs desktop's 1.73% (43% worse)
+3. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
+4. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
+5. Checkout is the killer - We lose 41% of users between cart and starting checkout
 
+## Business Recommendations
+1. **Need to fix mobile experience immediately**
+   • Mobile is 42% of traffic but only 23% of revenue
+   • We need to focus on site speed and simplified navigation
+2. **Simplify checkout process**
+   • Reduce from 5 steps to 2-3 steps
+   • Add guest checkout option (no forced account creation)
+   
 ## The Numbers:
-1. Total Sessions : 903,653
-2. Unique Visitors: 714,167
-3. Purchases: 9,988 people 
-5. Total Revenue: $4.98 M
+1. **Total Sessions:** 903,653
+2. **Unique Visitors:** 714,167
+3. **Purchases:** 9,988 people 
+5. **Total Revenue:** $4.98 M
 
 ## Funnel Analysis Overview
 All Visitors        → 714,167 (100%)    ← Everyone who visited
@@ -52,47 +62,28 @@ Complete Purchase   → 9,988 (1.40%)     ← Actually bought
 ## Challenges: 
 The raw data was super nested - one session could have 100+ hits (pageviews, clicks, etc.) all stored in arrays. Had to flatten everything into separate tables first before I could analyze it properly.
 
-## Some SQL I Wrote:
+## Dashboard - Built an interactive Power BI dashboard with:
 
-**Finding Who Bought vs. Who just Browsed**
--- This creates the funnel stages for each visitor
-WITH funnel_stages AS (
-  SELECT 
-    visitor_id,
-    MAX(CASE WHEN ecommerce_action = '2' THEN 1 END) AS viewed_product,
-    MAX(CASE WHEN ecommerce_action = '3' THEN 1 END) AS added_to_cart,
-    MAX(CASE WHEN ecommerce_action = '6' THEN 1 END) AS purchased
-  FROM ga_hits_flattened
-  GROUP BY visitor_id
-)
--- Then count how many people reached each stage
-SELECT 
-  COUNT(*) as total_visitors,
-  SUM(viewed_product) as looked_at_products,
-  SUM(added_to_cart) as put_in_cart,
-  SUM(purchased) as actually_bought
-FROM funnel_stages;
+1. Funnel visualization showing where people drop off
+2. Device comparison charts (mobile vs desktop performance)
+3. Traffic source breakdown (where visitors come from)
+4. Time trends (when do people buy?)
+5. Key metrics cards for quick insights
 
-**Calculating Cart Abandonment by Device:**
--- Who adds to cart but doesn't buy? Let's check by device
-SELECT 
-  device_type,
-  COUNT(DISTINCT CASE WHEN ecommerce_action = '3' THEN visitor_id END) AS added_to_cart,
-  COUNT(DISTINCT CASE WHEN ecommerce_action = '6' THEN visitor_id END) AS purchased,
-  -- Calculate abandonment rate
-  ROUND(
-    (COUNT(DISTINCT CASE WHEN ecommerce_action = '3' THEN visitor_id END) - 
-     COUNT(DISTINCT CASE WHEN ecommerce_action = '6' THEN visitor_id END)) * 100.0 /
-    COUNT(DISTINCT CASE WHEN ecommerce_action = '3' THEN visitor_id END), 2
-  ) AS abandonment_rate
-FROM ga_hits_flattened h
-JOIN ga_sessions_flattened s USING(visitor_id, session_id)
-GROUP BY device_type;
+## About the Data
+**Using Google's public Analytics dataset:**
+• **Time Period:** 1 full year (Aug 2016 - Jul 2017)
+• **Size:** 900K+ sessions, 80M+ individual actions
+• **Source:** Google Analytics Sample Dataset(https://console.cloud.google.com/marketplace/product/obfuscated-ga360-data/obfuscated-ga360-data)
 
-## Dashboard
-
-
-
+## How to Run This
+1. Get access to BigQuery (Google Cloud - it's free for queries under 1TB)
+2. Find the dataset:
+   • It's in: bigquery-public-data.google_analytics_sample
+   • Tables are named like ga_sessions_20160801
+3. Create flattened tables first (the data is super nested)
+4. Run the analysis queries in order
+5. Export to Power BI for visualizations
 
 
 
