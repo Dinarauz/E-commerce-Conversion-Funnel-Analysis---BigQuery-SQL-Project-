@@ -11,6 +11,8 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 2. Where exactly are we losing customers in the purchase journey?
 3. Does mobile vs desktop make a difference?
 4. How bad is the cart abondonment problem ?
+5. Which countries makes the most profit?
+6. What are top traffic sources?
 
 **What I'm solving:** Identifying the specific drop-off points in the conversion funnel and quantifying the revenue impact of fixing them.
 
