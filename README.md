@@ -66,9 +66,12 @@ The raw data was super nested - one session could have 100+ hits (pageviews, cli
 <img width="711" height="540" alt="image" src="https://github.com/user-attachments/assets/d26e6cec-ab94-4702-b413-0063b3aaca7f" />
 
 1. Funnel visualization showing where people drop off
-2. Device comparison charts (mobile vs desktop performance)
-3. Traffic source breakdown (where visitors come from)
-4. Time trends (when do people buy?)
+2. Device comparison charts (mobile vs desktop performance) <img width="947" height="541" alt="image" src="https://github.com/user-attachments/assets/7f10bf5f-ebd4-417f-bed9-a59f798829bd" />
+
+3. Traffic source breakdown (where visitors come from) <img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/9b56459f-2846-4bbb-92d1-e362500a530c" />
+
+4. Time trends (when do people buy?) <img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/4efc2737-a436-4605-a9ac-3df92e52ac6b" />
+
 5. Key metrics cards for quick insights
 
 ## About the Data
