@@ -7,8 +7,8 @@ In this project I analyzed BigQuery SQL to see how customers move through an onl
 The Google Merchandise Store (like most e-commerce sites) was losing potential customers somewhere between landing on the site and completing a purchase. They needed to understand: 
 
 ## Questions I wanted to answer:
-1. How many visitors actually end up buying something?
-2. Where exactly are we losing customers in the purchase journey?
+1. Where exactly are we losing customers in the purchase journey?
+2. How many visitors actually end up buying something?
 3. Does mobile vs desktop make a difference?
 4. How bad is the cart abondonment problem ?
 5. Which countries makes the most profit?
@@ -18,11 +18,12 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 
 ## Key Insights:
 1. Massive drop-off at product view - 86.11% of visitors never even look at a product page
-2. Mobile is broken - Mobile converts at 0.49% vs desktop's 1.73% (72% worse)
-3. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
-4. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
-5. Checkout is the killer - We lose 54% of users between cart and starting checkout
-6. Geographic Spread - Customers from 200+ countries, with US dominating followed by Venezuela and Canada.
+2. Checkout is the killer - We lose 54% of users between cart and starting checkout
+3. Mobile is broken - Mobile converts at 0.49% vs desktop's 1.73% (72% worse)
+4. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
+5. Customers from worldwide shop, with US dominating followed by Venezuela and Canada.
+6. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
+
 
 ## Business Recommendations
 1. **Need to fix mobile experience immediately**
