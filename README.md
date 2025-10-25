@@ -1,7 +1,7 @@
 # E-commerce Conversion Funnel Analysis for Google Merchandise Store using BigQuery SQL
 <img width="1920" height="1080" alt="Google Analytics Funnel Analysis" src="https://github.com/user-attachments/assets/9a08c145-d81f-4ebc-8f58-fd9ef25f3754" />
 
-In this project I analyzed 900K+ sessions using BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying.
+In this project I analyzed BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying.
 
 ## Business Problem:
 The Google Merchandise Store (like most e-commerce sites) was losing potential customers somewhere between landing on the site and completing a purchase. They needed to understand: 
@@ -17,18 +17,18 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 **What I'm solving:** Identifying the specific drop-off points in the conversion funnel and quantifying the revenue impact of fixing them.
 
 ## Key Insights:
-1. Massive drop-off at product view - 67% of visitors never even look at a product page
+1. Massive drop-off at product view - 86.11% of visitors never even look at a product page
 2. Mobile is broken - Mobile converts at 0.49% vs desktop's 1.73% (72% worse)
 3. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
 4. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
-5. Checkout is the killer - We lose 41% of users between cart and starting checkout
-6. Geographic Spread - Customers from 200+ countries, with US dominating
+5. Checkout is the killer - We lose 54% of users between cart and starting checkout
+6. Geographic Spread - Customers from 200+ countries, with US dominating followed by Venezuela and Canada.
 
 ## Business Recommendations
 1. **Need to fix mobile experience immediately**
-   • Mobile is 42% of traffic but only 23% of revenue
+   • Mobile traffic leaks value 24% of visits but only 9% of purchases; converts 72% worse than desktop.
    • We need to focus on site speed and simplified navigation
-2. **Simplify checkout process**
+3. **Simplify checkout process**
    • Reduce from 5 steps to 2-3 steps
    • Add guest checkout option (no forced account creation)
    
@@ -40,9 +40,9 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 
 ## Funnel Analysis Overview
 All Visitors        → 712,272 (100%)    ← Everyone who visited
-Product Views       → 233,685 (32.73%)  ← Looked at a product
-Add to Cart         → 39,8820 (5.59%)    ← Added something to cart
-Begin Checkout      → 16,869 (2.36%)    ← Started checkout
+Product Views       → 98,941 (13.9%)  ← Looked at a product
+Add to Cart         → 39,700 (5.6%)    ← Added something to cart
+Begin Checkout      → 18,209 (2.6%)    ← Started checkout
 Complete Purchase   → 9,988 (1.40%)     ← Actually bought
 
 ## Device Breakdown
