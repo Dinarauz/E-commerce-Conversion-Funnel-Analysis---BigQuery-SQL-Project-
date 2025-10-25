@@ -98,3 +98,21 @@ The raw data was super nested - one session could have 100+ hits (pageviews, cli
 
 
 
+## How I Calculated Key Metrics
+
+The table below summarizes all key metrics, formulas, and sample calculations used in the Google Merchandise Store analysis.
+
+| **#** | **Metric**                    | **Formula**                                   | **Example Calculation**   | **Result / Insight**                          |
+| :---: | :---------------------------- | :-------------------------------------------- | :------------------------ | :-------------------------------------------- |
+|   1   | **Product View Rate**         | (Product Detail Views ÷ Total Visitors) × 100 | (98,941 ÷ 712,272) × 100  | **13.89%** of visitors view a product         |
+|   2   | **Add-to-Cart Rate**          | (Add to Cart ÷ Product Views) × 100           | (39,700 ÷ 98,941) × 100   | **40.12%** of product viewers add to cart     |
+|   3   | **Checkout Start Rate**       | (Begin Checkout ÷ Add to Cart) × 100          | (18,209 ÷ 39,700) × 100   | **45.87%** of cart users start checkout       |
+|   4   | **Checkout Completion Rate**  | (Purchases ÷ Begin Checkout) × 100            | (9,988 ÷ 18,209) × 100    | **54.85%** complete checkout                  |
+|   5   | **Overall Conversion Rate**   | (Purchases ÷ Total Visitors) × 100            | (9,988 ÷ 712,272) × 100   | **1.40%** overall conversion                  |
+|   6   | **Cart Abandonment Rate**     | 1 − (Purchases ÷ Add to Cart)                 | 1 − (9,988 ÷ 39,700)      | **74.84%** abandonment                        |
+|   7   | **Device Conversion Gap**     | (1 − (Mobile ÷ Desktop)) × 100                | 1 − (0.49 ÷ 1.73)         | **72% worse** on mobile                       |
+|   8   | **Product View Drop-off**     | 100 − Product View Rate                       | 100 − 13.89               | **86.11%** never view a product               |
+|   9   | **Traffic Source Comparison** | ((Better − Lower) ÷ Lower) × 100              | ((2.3 − 0.8) ÷ 0.8) × 100 | **187.5% higher** for direct traffic          |
+|   10  | **Traffic vs. Revenue Share** | (Revenue Share ÷ Traffic Share) × 100         | (23 ÷ 42) × 100           | Mobile earns only **55%** of expected revenue |
+
+Each formula shows how I derived the funnel metrics and comparative insights directly from the dataset. You can reuse these calculations for any e-commerce or Google Analytics analysis.
