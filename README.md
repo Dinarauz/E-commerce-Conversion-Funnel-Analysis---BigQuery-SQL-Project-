@@ -1,7 +1,7 @@
 # E-commerce Conversion Funnel Analysis for Google Merchandise Store using BigQuery SQL
 <img width="1920" height="1080" alt="Google Analytics Funnel Analysis" src="https://github.com/user-attachments/assets/9a08c145-d81f-4ebc-8f58-fd9ef25f3754" />
 
-In this project I analyzed BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying.
+In this project I analyzed BigQuery SQL to see how customers move through an online store's purchase process from browsing to buying. The goal was to understand where and why users were dropping off.
 
 ## Business Problem:
 The Google Merchandise Store (like most e-commerce sites) was losing potential customers somewhere between landing on the site and completing a purchase. They needed to understand: 
@@ -28,7 +28,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 ## Business Recommendations
 1. **Need to fix mobile experience immediately**
    • Mobile traffic leaks value 24% of visits but only 9% of purchases; converts 72% worse than desktop.
-   • We need to focus on site speed and simplified navigation
+   • Focus on site speed, simplified navigation, and responsive checkout.
 3. **Simplify checkout process**
    • Reduce from 5 steps to 2-3 steps
    • Add guest checkout option (no forced account creation)
@@ -50,6 +50,9 @@ Complete Purchase   → 9,988 (1.40%)     ← Actually bought
 • **Desktop**: 1.73% conversion rate
 • **Tablet**: 0.66% conversion rate
 • **Mobile**: 0.49% conversion rate
+
+## Summary
+Despite healthy site traffic, the majority of visitors never reach a product page, and mobile underperforms greatly. We need to address mobile UX and checkout friction because these are the biggest opportunity for conversion growth.
 
 ## How I built this project
 
