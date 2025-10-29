@@ -37,7 +37,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 1. **Total Sessions:** 903,653
 2. **Unique Visitors:** 712,272
 3. **Purchases:** 9,988 people 
-5. **Total Revenue:** $4.98 M
+5. **Total Revenue:** $1.8M
 
 ## Funnel Analysis Overview
 All Visitors        → 712,272 (100%)    ← Everyone who visited
