@@ -82,6 +82,9 @@ The raw data was super nested - one session could have 100+ hits (pageviews, cli
 4. Time trends (when do people buy?) <img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/4efc2737-a436-4605-a9ac-3df92e52ac6b" />
 
 5. Key metrics cards for quick insights
+   
+7. Geographic
+<img width="947" height="540" alt="image" src="https://github.com/user-attachments/assets/1acbb76b-23cb-4497-9852-12fb61785e53" />
 
 ## About the Data
 **Using Google's public Analytics dataset:**
