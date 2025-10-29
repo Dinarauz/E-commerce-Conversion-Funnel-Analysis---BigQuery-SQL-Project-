@@ -23,6 +23,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 4. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
 5. Customers from worldwide shop, with US dominating followed by Venezuela and Canada.
 6. Direct traffic converts the best 2.76% conversion rate and makes the most revenue $1.3M and least one being outlooklive.com with total revenue $32.99
+7. Total revenue $1.77M meanwhile total lost revenue $7.33M
 
 
 ## Business Recommendations
@@ -38,6 +39,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 2. **Unique Visitors:** 712,272
 3. **Purchases:** 9,988 people 
 5. **Total Revenue:** $1.77M
+6. **Lost Revenue:** $7.33M
 
 ## Funnel Analysis Overview
 All Visitors        → 712,272 (100%)    ← Everyone who visited
