@@ -22,7 +22,7 @@ The Google Merchandise Store (like most e-commerce sites) was losing potential c
 3. Mobile is broken - Mobile converts at 0.49% vs desktop's 1.73% (72% worse)
 4. Cart abandonment crisis - 74.84% of people who add items don't complete purchase
 5. Customers from worldwide shop, with US dominating followed by Venezuela and Canada.
-6. Direct traffic converts best - 2.3% conversion rate vs 0.8% for social media
+6. Dealspotr converts best - 11.25% while Direct traffic converts 2.76% conversion rate.
 
 
 ## Business Recommendations
