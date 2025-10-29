@@ -72,7 +72,7 @@ Despite healthy site traffic, the majority of visitors never reach a product pag
 The raw data was super nested - one session could have 100+ hits (pageviews, clicks, etc.) all stored in arrays. Had to flatten everything into separate tables first before I could analyze it properly.
 
 ## Dashboard - Built an interactive Power BI dashboard with:
-<img width="711" height="540" alt="image" src="https://github.com/user-attachments/assets/d26e6cec-ab94-4702-b413-0063b3aaca7f" />
+<img width="711" height="540" alt="image" src="https://github.com/user-attachments/assets/58b6792a-f2de-4ca8-a43f-90a4e718095f" />
 
 1. Funnel visualization showing where people drop off
 2. Device comparison charts (mobile vs desktop performance) <img width="947" height="541" alt="image" src="https://github.com/user-attachments/assets/7f10bf5f-ebd4-417f-bed9-a59f798829bd" />
